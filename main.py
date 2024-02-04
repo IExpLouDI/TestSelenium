@@ -16,3 +16,4 @@ driver = webdriver.Chrome(options=options)
 driver.implicitly_wait(10)
 
 driver.get('https://mail.ru')
+print("Hello")
